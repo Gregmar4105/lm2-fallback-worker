@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import logo from './assets/lm2-logo.png'
 import './App.css'
 
 function App() {
@@ -78,7 +79,7 @@ function App() {
         {/* Brand Logo Section */}
         <div className="logo-section">
           <div className="logo-glow"></div>
-          <img src="/lm2-logo.png" alt="LM2 Logo" className="brand-logo" />
+          <img src={logo} alt="LM2 Logo" className="brand-logo" />
         </div>
 
         {/* Main Title & Notice */}

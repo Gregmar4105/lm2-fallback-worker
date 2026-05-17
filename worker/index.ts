@@ -72,7 +72,7 @@ export default {
         const payload = {
           app_id: ONESIGNAL_APP_ID,
           target_channel: 'push',
-          included_segments: ['Subscribed Users'],
+          included_segments: ['Total Subscriptions'],
           headings: { en: heading },
           contents: { en: message }
         };

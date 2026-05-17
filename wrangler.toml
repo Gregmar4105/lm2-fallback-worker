@@ -8,3 +8,10 @@ preview_urls = false
 [[rules]]
 type = "Text"
 globs = ["**/*.html"]
+
+[[kv_namespaces]]
+binding = "SERVER_STATE"
+id = "5b56f60934cd45e18666c04b57676dad" # User needs to replace this
+
+[triggers]
+crons = ["* * * * *"]
